@@ -1,0 +1,6 @@
+[
+  { "rule": "file-exists-in-head", "path": "folder/test1.txt"},
+  { "rule": "file-exists-in-head", "path": "file2.txt"},
+  { "rule": "file-not-exist-in-head", "path": "folder/not-here.txt"},
+  { "rule": "blob-exists-in-location-in-head", "path": "folder/file2.txt", "id": "907b308167f0880fb2a5c0e1614bb0c7620f9dc3"}
+]
