@@ -14,7 +14,7 @@
 
 1. Use git to move `test1.txt` into `folder`. Commit that change.
 2. Create a new folder within the repository's root called `another-folder`
-3. Create a new file called `text2.txt` within `another-folder`. Commit that change.
+3. Create a new file called `test2.txt` within `another-folder`. Commit that change.
 
 If you've done that successfully all tests should pass when running `java -jar gitruler.jar`.
 

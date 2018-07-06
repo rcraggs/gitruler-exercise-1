@@ -1,6 +1,5 @@
 [
-  { "rule": "file-exists-in-head", "path": "folder/test1.txt"},
-  { "rule": "file-exists-in-head", "path": "file2.txt"},
-  { "rule": "file-not-exist-in-head", "path": "folder/not-here.txt"},
-  { "rule": "blob-exists-in-location-in-head", "path": "folder/file2.txt", "id": "907b308167f0880fb2a5c0e1614bb0c7620f9dc3"}
+   { "rule": "blob-exists-in-location-in-head", "path": "folder/test1.txt", "hash": "a5bce3fd2565d8f458555a0c6f42d0504a848bd5", "post-text":" [Should pass after step 1]"},
+  { "rule": "file-not-exist-in-head", "path": "test1.txt", "post-text":" [Should pass after step 1]"},
+  { "rule": "file-exists-in-head", "path": "another-folder/test2.txt", "post-text":" [Should pass after step 2]"}
 ]
